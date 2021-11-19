@@ -12,7 +12,7 @@ assert l == [3, 2, 1], 'Failed test 1'
 assert cons(1) == [1], 'Failed test 2'
 print('All tests good!')
 
-
+#Друга частина завдання
 def sum(lst):
     if not lst:
         return 0
