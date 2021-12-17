@@ -19,7 +19,7 @@ with open('music_by_Nautilus.csv', 'w', newline='') as csvfile:
                      'Year': '1996'})
     writer.writerow({'Song': 'На берегу безымянной реки',
                      'Year': '1996'})
-print('my favourite music!')
+
 print('\n------------------------------')
 with open('music_by_Nautilus.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
